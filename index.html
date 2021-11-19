@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financimento de Bem</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+<body>
+    
+  <div class="form">
+    <div class="title">Financimento de Bem</div>
+    <div class="subtitle">Preencha todos os campos!</div>
+    <div class="input-container ic1">
+      <input id="renda" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="renda" class="placeholder">Renda</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="financiamento" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="financiamento" class="placeholder">Financiamento</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="entrada" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="entrada" class="placeholder">Entrada</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="juros" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="juros" class="placeholder">Juros</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="prestacoes" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="prestacoes" class="placeholder">Prestações</label>
+    </div>
+    <button class="submit" id="calcular">Calcular</button>
+    <br><br>
+    <div class="subtitle" id="resultadotext"></div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
